@@ -16,6 +16,12 @@ mysql < resources/EC021_2020_1_NP1.sql
 
 > NOTE: this done by default on opening the Gitpod environment
 
+### Open MySQL shell
+
+```sh
+mysql
+```
+
 ### Show MySQL databases
 
 ```sh
@@ -26,4 +32,10 @@ mysql -e "show databases;"
 
 ```sh
 mysql -e "use ec021_2020_1; show tables;"
+```
+
+### Show contents of the table from the MySQL database
+
+```sh
+mysql -e "use ec021_2020_1; select * from carro;"
 ```
