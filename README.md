@@ -21,3 +21,9 @@ mysql < resources/EC021_2020_1_NP1.sql
 ```sh
 mysql -e "show databases;"
 ```
+
+### Show tables from the MySQL database
+
+```sh
+mysql -e "use ec021_2020_1; show tables;"
+```
