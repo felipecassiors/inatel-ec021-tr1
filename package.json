@@ -1,0 +1,19 @@
+{
+  "name": "inatel-ec021-tr1",
+  "version": "1.0.0",
+  "description": "A backend made in NodeJS using Restify and Sequelize with a MySQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipecassiors/inatel-ec021-tr1.git"
+  },
+  "author": "Felipe Santos <felipecassiors@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipecassiors/inatel-ec021-tr1/issues"
+  },
+  "homepage": "https://github.com/felipecassiors/inatel-ec021-tr1#readme"
+}
