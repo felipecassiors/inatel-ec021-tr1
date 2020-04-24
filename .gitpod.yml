@@ -1,7 +1,13 @@
 image: gitpod/workspace-mysql
 
 tasks:
+  - init: npm i
+    command: npm run start
   - init: mysql < resources/EC021_2020_1_NP1.sql
+
+ports:
+  - port: 3000
+    onOpen: ignore
 
 vscode:
   extensions:
