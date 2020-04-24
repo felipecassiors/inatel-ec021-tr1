@@ -1,3 +1,14 @@
+POST http://localhost:3000/ec021/carro
+Content-Type: application/json
+
+{
+  "marca": "Aston Martin",
+  "modelo": "Borrachudo",
+  "ano": 2077,
+  "valor": 666666
+}
+
+###
 GET http://localhost:3000/ec021/carro?id=4
 
 ### 
