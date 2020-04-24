@@ -9,6 +9,28 @@ Content-Type: application/json
 }
 
 ###
+PUT http://localhost:3000/ec021/carro/7
+Content-Type: application/json
+
+{
+  "marca": "McLaren",
+  "modelo": "Morcego",
+  "ano": 2097,
+  "valor": 999999
+}
+
+###
+PUT http://localhost:3000/ec021/carro/7
+Content-Type: application/json
+
+{
+  "valor": 888888
+}
+
+###
+GET http://localhost:3000/ec021/carro
+
+###
 GET http://localhost:3000/ec021/carro?id=4
 
 ### 
