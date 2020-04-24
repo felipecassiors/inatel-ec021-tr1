@@ -6,6 +6,16 @@ A backend made in NodeJS using Restify and Sequelize with a MySQL database. **Th
 
 This repository is ready-to-code with Gitpod, which will provide a running instance of MySQL in a Ubuntu container and a Visual Studio Code IDE like (based on Eclipse Theia) environment.
 
+## How to start the project
+
+```sh
+npm run start
+```
+
+## How to test the endpoints
+
+Open the `api.http` file and you can click on the `Send Request` for each of the requests written. This is done using [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+
 ## Tips
 
 ### Import MySQL dump
