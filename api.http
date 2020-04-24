@@ -1,1 +1,14 @@
-GET http://localhost:3000/ec021/carro?id=12
+GET http://localhost:3000/ec021/carro?id=4
+
+### 
+GET http://localhost:3000/ec021/carro?marca=Fiat
+
+### 
+GET http://localhost:3000/ec021/carro?marca=Fiat&modelo=Toro
+
+### 
+GET http://localhost:3000/ec021/carro?anoInicial=2019
+
+### 
+GET http://localhost:3000/ec021/carro?valorInicial=25000
+
