@@ -2,3 +2,8 @@ image: gitpod/workspace-mysql
 
 tasks:
   - init: mysql < resources/EC021_2020_1_NP1.sql
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint@2.1.5:9Wg0Glx/TwD8ElFBg+FKcQ==
+    - humao.rest-client@0.23.2:EcQzdx/LsXrhATjZFVSutw==
