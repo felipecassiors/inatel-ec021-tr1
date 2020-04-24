@@ -45,3 +45,5 @@ GET http://localhost:3000/ec021/carro?anoInicial=2019
 ### 
 GET http://localhost:3000/ec021/carro?valorInicial=25000
 
+###
+DELETE http://localhost:3000/ec021/carro/7
